@@ -1,8 +1,16 @@
+using DotNetRpg.Domain.Services;
+using DotNetRpg.Domain.Services.CharacterService;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<ICharacterService, CharacterService>();
+builder.Services.AddAutoMapper(typeof(Program));
+//Indica que se o controller quiser implementar o ICharacterService, deve implementar a classe CharacterService
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

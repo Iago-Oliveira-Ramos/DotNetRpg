@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRpg.Api", "DotNetRpg.Api\DotNetRpg.Api.csproj", "{A79CAC2B-E28D-4242-9FF1-47F1A0C620D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRpg.Domain", "DotNetRpg.Domain\DotNetRpg.Domain.csproj", "{76D6CE9D-891F-4C89-96ED-6E6974A1F0B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A79CAC2B-E28D-4242-9FF1-47F1A0C620D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A79CAC2B-E28D-4242-9FF1-47F1A0C620D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A79CAC2B-E28D-4242-9FF1-47F1A0C620D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D6CE9D-891F-4C89-96ED-6E6974A1F0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D6CE9D-891F-4C89-96ED-6E6974A1F0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D6CE9D-891F-4C89-96ED-6E6974A1F0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D6CE9D-891F-4C89-96ED-6E6974A1F0B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
